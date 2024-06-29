@@ -1,0 +1,108 @@
+body {
+  background-image: url(assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 800px;
+  background-size: cover;
+}
+
+.wrapper {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  width: 350px;
+  height: 420px;
+  transform: translateY(-50%);
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background: transparent;
+  backdrop-filter: blur(6px);
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.wrapper > h2 {
+  font-size: 30px;
+}
+
+.input-field {
+  position: relative;
+}
+
+.input-field input[type="email"] {
+  margin: 15px;
+  width: 280px;
+  height: 2px;
+  border: 2px solid black;
+  padding: 20px 40px 20px 20px;
+  background: transparent;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+}
+
+.input-field i {
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  right: 10px;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+a.sign-up {
+  text-decoration: none;
+}
+
+a.sign-up:hover {
+  text-decoration: underline;
+}
+
+.wrapper .login {
+  background: blue;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 45px;
+  width: 350px;
+  height: 30px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.input-field .remember {
+  color: blue;
+}
+
+.input-field .email {
+  margin-top: 50px;
+}
+
+span.req {
+  color: red;
+}
+
+label.email {
+  font-weight: bold;
+}
+
+label.password {
+  font-weight: bold;
+}
+
+.input-field input[type="password"] {
+  margin: 15px;
+  width: 280px;
+  height: 2px;
+  border: 2px solid black;
+  padding: 20px 40px 20px 20px;
+  background: transparent;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  position: relative;
+}

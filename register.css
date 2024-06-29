@@ -1,0 +1,81 @@
+body {
+  background-image: url(assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.wrap {
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.input-field {
+  position: relative;
+}
+
+.input-field i {
+  position: absolute;
+  top: 65%;
+  right: 20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+input[type="checkbox"] {
+  margin-top: 15px;
+  transform: scale(1);
+  width: auto;
+}
+
+input[type="submit"] {
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 20px;
+  grid-column: span 2;
+}
+
+.req {
+  color: red;
+}
